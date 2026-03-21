@@ -43,7 +43,7 @@ const Footer = () => {
   )
 
   return (
-    <div className="bg-pnc-blue flex justify-center text-center flex-col px-4 py-12 md:flex-row md:p-8 gap-12">
+    <footer className="bg-pnc-blue flex justify-center text-center flex-col px-4 py-12 md:flex-row md:p-8 gap-12">
       <div className="flex flex-col gap-6 text-pnc-white md:w-1/2">
         <div>
           <p className="font-bold text-2xl tracking-wider">
@@ -59,7 +59,7 @@ const Footer = () => {
           © 2026 All Rights Reserved
         </p>
       </div>
-    </div>
+    </footer>
   )
 }
 
